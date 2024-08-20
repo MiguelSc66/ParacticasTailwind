@@ -26,7 +26,7 @@ const Accordion = () => {
                     </defs>
                 </svg>
             </div>
-            <div className="bg-white w-[35%] md:w-[65%] xs:w-[85%] min-h-[55%] max-h-[80%] relative rounded-2xl p-10 overflow-auto">
+            <div className="bg-white w-[40%] lg:w-[40%] md:w-[60%] xs:w-[85%] min-h-[55%] max-h-[80%] relative rounded-2xl p-10 overflow-auto">
                 <div className="flex justify-start space-x-10 mb-8">
                     <svg xmlns="http://www.w3.org/2000/svg" className="xs:w-auto xs:h-auto" width="40" height="41" fill="none" viewBox="0 0 40 41"><path fill="#AD28EB" d="M37.5 20.5a2.467 2.467 0 0 1-1.64 2.344l-9.913 3.604-3.603 9.911a2.5 2.5 0 0 1-4.688 0l-3.604-9.922-9.911-3.593a2.5 2.5 0 0 1 0-4.688l9.921-3.604 3.594-9.911a2.5 2.5 0 0 1 4.688 0l3.604 9.921 9.911 3.594A2.467 2.467 0 0 1 37.5 20.5Z"/></svg>
                     <h1 className="text-5xl xs:text-4xl font-bold">FAQs</h1>
