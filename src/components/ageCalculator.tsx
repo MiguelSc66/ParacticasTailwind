@@ -77,21 +77,21 @@ const AgeCalculator = () => {
                     <div className="flex space-x-10 content-between mt-3">
                         <div className="flex flex-col font-bold">
                             <label className="text-gray-400 mb-2">DAY</label>
-                            <input type="number" min={1} max={31} name="birthDay" value={formValues.birthDay} onChange={handleChange} placeholder="DD" className="w-[10rem] h-20 text-4xl  bg-transparent border rounded-lg no-spin" required />
+                            <input type="number" min={1} max={31} name="birthDay" value={formValues.birthDay} onChange={handleChange} placeholder="DD" className="w-[10rem] h-20 text-4xl  bg-transparent border hover:border-violet-600 rounded-lg no-spin" required />
                         </div>
                         <div className="flex flex-col font-bold">
                             <label className="text-gray-400 mb-2">MONTH</label>
-                            <input type="number" min={1} max={12} name="birthMonth"  value={formValues.birthMonth} onChange={handleChange} placeholder="MM" className="w-[10rem] h-20 text-4xl bg-transparent border rounded-lg no-spin" required />
+                            <input type="number" min={1} max={12} name="birthMonth"  value={formValues.birthMonth} onChange={handleChange} placeholder="MM" className="w-[10rem] h-20 text-4xl bg-transparent border hover:border-violet-600 rounded-lg no-spin" required />
                         </div>
                         <div className="flex flex-col font-bold">
                             <label className="text-gray-400 mb-2">YEAR</label>
-                            <input type="number" min={1} max={2024} name="birthYear" value={formValues.birthYear} onChange={handleChange} placeholder="YYYY" className="w-[10rem] h-20 text-4xl bg-transparent border rounded-lg no-spin" required />
+                            <input type="number" min={1} max={2024} name="birthYear" value={formValues.birthYear} onChange={handleChange} placeholder="YYYY" className="w-[10rem] h-20 text-4xl bg-transparent border hover:border-violet-600 rounded-lg no-spin" required />
                         </div>
                     </div>
                     <svg xmlns="http://www.w3.org/2000/svg" className="w-10 h-10" width="46" height="44" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg>
                     <div className="flex h-[20%]  justify-between relative">
                         <hr className="w-[90%] mt-12"/>
-                        <button type="submit" className="w-28 h-28 bg-purple-600 hover:bg-black rounded-full block" ></button>
+                        <button type="submit" className="w-32 h-28 bg-purple-600 hover:bg-black rounded-full block" ></button>
                     </div>
                 </form>
                 <div className="flex flex-col text-8xl font-bold space-y-6 mb-3">
